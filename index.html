@@ -21,13 +21,4 @@ alerts:()=>`<section><h1>مركز البلاغات الموحد</h1><div class="
 reports:()=>`<section><h1>التقارير والتحليلات</h1><div class="grid">${kpi('OEE','86.4%','good')}${kpi('Availability','92.1%','cyan')}${kpi('Performance','94.0%','cyan')}${kpi('Quality','99.0%','good')}</div><div class="card section"><div class="list"><div class="item">📊 تقرير الإنتاج حسب الماكينة/الخط/اليوم</div><div class="item">♻️ تقرير الهدر ونسبة التالف</div><div class="item">⏱️ Pareto أسباب التوقف</div><div class="item">🔧 MTBF / MTTR / تكلفة الصيانة</div><div class="item">👥 الحضور والإجازات والعمل الإضافي</div><div class="item">📦 المخزون وحركة قطع الغيار</div><div class="item">✅ الجودة وCAPA</div><div class="item">🦺 السلامة والحوادث</div></div></div></section>`,
 admin:()=>`<section><h1>الإدارة والأمن</h1><div class="grid">${kpi('المستخدمون','18')}${kpi('الأدوار','9')}${kpi('سجل التدقيق','2,418','cyan')}${kpi('أجهزة متصلة','31','good')}</div><div class="card section"><div class="list"><div class="item">🔐 RBAC — صلاحيات حسب الدور والقسم والخط والماكينة</div><div class="item">🧾 Audit Trail — لا حذف صامت للبيانات</div><div class="item">🔑 تغيير كلمات المرور وسياسة الدخول</div><div class="item">📥 استيراد الموظفين من Excel</div><div class="item">⚙️ إدارة الماكينات والمنتجات وأسباب التوقف</div><div class="item">🗂️ إدارة النماذج والوثائق والإصدارات</div></div></div></section>`};
 if(localStorage.alwaanUser) login();
-</script>
-<!-- ربط قاعدة البيانات -->
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script>
-window.canarySupabase = window.supabase.createClient(
-  'https://mrcyfkfekkfeesxspmbd.supabase.co',
-  'sb_publishable_gnnN1aSNaCn40U6anE1hdw_NABmSEuE'
-);
-</script>
-</body></html>
+</script></body></html>
